@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JSCalc</title>
+
+  <!--Import libraries and frameworks-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--Import custom fonts-->
+  <script src="https://use.fontawesome.com/589ca5c72c.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Cutive+Mono" rel="stylesheet">
+
+  <!--Import custom CSS and JavaScript files-->
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+  <div id="calculator">
+    <div id="header">
+      <p class="text-center">JSCalc</p>
+    </div>
+
+    <div class="text-right" id="display">
+      <p id="display-text">0</p>
+    </div>
+
+    <div id="buttons">
+      <div class="row" id="row-1">
+        <button class="btn text-center" id="btn-rcm">RCM</button>
+        <button class="btn text-center" id="btn-mm">M-</button>
+        <button class="btn text-center btn-mem" id="btn-mp">M+</button>
+        <button class="btn text-center btn-clear" id="btn-ac">AC</button>
+        <button class="btn text-center btn-clear" id="btn-ce">CE</button>
+      </div>
+
+      <div class="row" id="row-2">
+        <button class="btn text-center" id="btn-neg">(-)</button>
+        <button class="btn text-center" id="btn-percent">%</button>
+        <button class="btn text-center" id="btn-sqrt"></button>
+        <button class="btn text-center" id="btn-div"></button>
+      </div>
+
+      <div class="row" id="row-3">
+        <button class="btn text-center btn-num" id="btn-7">7</button>
+        <button class="btn text-center btn-num" id="btn-8">8</button>
+        <button class="btn text-center btn-num" id="btn-9">9</button>
+        <button class="btn text-center" id="btn-times"></button>
+      </div>
+
+      <div class="row" id="row-4">
+        <button class="btn text-center btn-num" id="btn-4">4</button>
+        <button class="btn text-center btn-num" id="btn-5">5</button>
+        <button class="btn text-center btn-num row-2" id="btn-6">6</button>
+        <button class="btn text-center" id="btn-minus"></button>
+      </div>
+
+      <div class="row" id="row-5">
+        <button class="btn text-center btn-num" id="btn-1">1</button>
+        <button class="btn text-center btn-num" id="btn-2">2</button>
+        <button class="btn text-center btn-num" id="btn-3">3</button>
+        <button class="btn text-center" id="btn-plus">+</button>
+      </div>
+
+      <div class="row" id="row-6">
+        <button class="btn text-center btn-num" id="btn-0">0</button>
+        <button class="btn text-center btn-num" id="btn-dec">.</button>
+        <button class="btn text-center" id="btn-eq">=</button>
+      </div>
+    </div>
+
+    <div id = "footer">
+      <p>Made with <i class = "fa fa-heart"></i>  by Jacob Ayers</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

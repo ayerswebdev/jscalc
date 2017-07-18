@@ -1,0 +1,80 @@
+body {
+  background-color: #b7b2b7;
+}
+
+#calculator {
+  margin-top: 2%;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: white;
+  border-radius: 5px;
+  font-family: 'Cutive Mono', monospace;
+  height: 500px;
+}
+
+.btn {
+  background-color: #c3f2bc;
+  box-shadow: 0px 3px #10350b;
+}
+
+.btn-clear {
+  background-color: #f49c9c;
+  box-shadow: 0px 3px #490b0b;
+}
+
+.btn-num {
+  background-color: #d2d4d8;
+  box-shadow: 0px 3px #2c2d2d;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: 0 !important;
+}
+
+.btn:active {
+  bottom: -4px;
+}
+
+#btn-eq {
+  width: 45.9%;
+}
+
+#header {
+  font-size: 32px;
+  font-family: 'Baloo Thambi', cursive;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #44ba32;
+}
+
+#display {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px;
+  background-color: #dedede;
+  font-size: 24px;
+}
+
+#display-text {
+  position: relative;
+  right: 6px;
+  overflow: hidden;
+}
+
+#buttons {
+  margin: 2%;
+  font-size: 18px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 5px;
+  font-size: 24px;
+}
+
+.fa-heart {
+  color: #ff69b4;
+}
